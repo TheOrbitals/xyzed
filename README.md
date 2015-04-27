@@ -19,11 +19,11 @@ A 3-dimensional vector (pronouced X Y Zed)
 
 ## Functions
 
-* add(vec)         // Adds a vector to itself
-* sub(vec)         // Subtracts a vector from itself
-* mul(int)         // Multiplies a vector with a scalar
-* rotate(matrix)   // Rotation of a vector with a matrix
-* abs()            // Returns the absolute of the vector
+* `add(vec)` Adds a vector to itself
+* `sub(vec)` Subtracts a vector from itself
+* `mul(int)` Multiplies a vector with a scalar
+* `rotate(matrix)` Rotation of a vector with a matrix
+* `abs()` Returns the absolute of the vector
 
 ## Contributing
 
