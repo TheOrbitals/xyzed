@@ -4,7 +4,7 @@ A 3-dimensional vector (pronouced X Y Zed)
 
 ## Installation
 
-    npm install git://github.com/theorbitals/xyzed.git --save
+    npm install xyzed --save
 
 ## Usage
 
