@@ -16,9 +16,9 @@ var xyzed = {
    * Rotation of Vector with Matrix
    */
   rotate: function(mtx) {
-    var x = mtx.a11 * this.x + mtx.a12 * this.y + mtx.a13 * this.z;
-    var y = mtx.a21 * this.x + mtx.a22 * this.y + mtx.a23 * this.z;
-    var z = mtx.a31 * this.x + mtx.a32 * this.y + mtx.a33 * this.z;
+    var x = mtx.fA11 * this.x + mtx.fA12 * this.y + mtx.fA13 * this.z;
+    var y = mtx.fA21 * this.x + mtx.fA22 * this.y + mtx.fA23 * this.z;
+    var z = mtx.fA31 * this.x + mtx.fA32 * this.y + mtx.fA33 * this.z;
     return new Xyzed(x, y, z);
   },
 
