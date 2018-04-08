@@ -91,7 +91,7 @@ function sub(xyz1, xyz2) {
 }
 exports.sub = sub;
 /**
- * Multiply two vectors together
+ * Multiply a vector with a scalar value
  *
  * @param vec the vector
  * @param n the multiplier
