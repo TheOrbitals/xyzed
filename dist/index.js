@@ -65,28 +65,28 @@ exports.rotate = rotate;
 /**
  * Add two vectors together
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-function add(xyz1, xyz2) {
-    var x = xyz1.x + xyz2.x;
-    var y = xyz1.y + xyz2.y;
-    var z = xyz1.z + xyz2.z;
+function add(v1, v2) {
+    var x = v1.x + v2.x;
+    var y = v1.y + v2.y;
+    var z = v1.z + v2.z;
     return Vector(x, y, z);
 }
 exports.add = add;
 /**
  * Subtract two vectors from each other
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-function sub(xyz1, xyz2) {
-    var x = xyz1.x - xyz2.x;
-    var y = xyz1.y - xyz2.y;
-    var z = xyz1.z - xyz2.z;
+function sub(v1, v2) {
+    var x = v1.x - v2.x;
+    var y = v1.y - v2.y;
+    var z = v1.z - v2.z;
     return Vector(x, y, z);
 }
 exports.sub = sub;

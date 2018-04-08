@@ -70,28 +70,28 @@ export function rotate(vec: IVector, mtx: IMatrix): IVector {
 /**
  * Add two vectors together
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-export function add(xyz1: IVector, xyz2: IVector): IVector {
-  const x: number = xyz1.x + xyz2.x;
-  const y: number = xyz1.y + xyz2.y;
-  const z: number = xyz1.z + xyz2.z;
+export function add(v1: IVector, v2: IVector): IVector {
+  const x: number = v1.x + v2.x;
+  const y: number = v1.y + v2.y;
+  const z: number = v1.z + v2.z;
   return Vector(x, y, z);
 }
 
 /**
  * Subtract two vectors from each other
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-export function sub(xyz1: IVector, xyz2: IVector): IVector {
-  const x: number = xyz1.x - xyz2.x;
-  const y: number = xyz1.y - xyz2.y;
-  const z: number = xyz1.z - xyz2.z;
+export function sub(v1: IVector, v2: IVector): IVector {
+  const x: number = v1.x - v2.x;
+  const y: number = v1.y - v2.y;
+  const z: number = v1.z - v2.z;
   return Vector(x, y, z);
 }
 

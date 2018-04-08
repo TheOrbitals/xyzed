@@ -51,21 +51,21 @@ export declare function rotate(vec: IVector, mtx: IMatrix): IVector;
 /**
  * Add two vectors together
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-export declare function add(xyz1: IVector, xyz2: IVector): IVector;
+export declare function add(v1: IVector, v2: IVector): IVector;
 /**
  * Subtract two vectors from each other
  *
- * @param xyz1 the first vector
- * @param xyz2 the second vector
+ * @param v1 the first vector
+ * @param v2 the second vector
  * @returns a new `IVector`
  */
-export declare function sub(xyz1: IVector, xyz2: IVector): IVector;
+export declare function sub(v1: IVector, v2: IVector): IVector;
 /**
- * Multiply two vectors together
+ * Multiply a vector with a scalar value
  *
  * @param vec the vector
  * @param n the multiplier
