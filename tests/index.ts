@@ -1,6 +1,6 @@
 import {abs, add, Matrix, mul, rotate, sub, Vector} from "../src/index";
 
-test("#add should add two vectors", () => {
+test("add() should add two vectors", () => {
   const v1: IVector = Vector(3, 5, 7);
   const v2: IVector = Vector(2, 6, 8);
 
@@ -11,7 +11,7 @@ test("#add should add two vectors", () => {
   expect(result.z).toBe(15);
 });
 
-test("#sub should subtract a vector from another vector", () => {
+test("sub() should subtract a vector from another vector", () => {
   const v1: IVector = Vector(3, 5, 15);
   const v2: IVector = Vector(2, 6, 8);
 
@@ -22,7 +22,7 @@ test("#sub should subtract a vector from another vector", () => {
   expect(result.z).toBe(7);
 });
 
-it("#mul should multiply a scalar with a vector", () => {
+it("mul() should multiply a scalar with a vector", () => {
   const vec: IVector = Vector(3, 5, -4);
 
   const result: IVector = mul(vec, 6);
@@ -32,7 +32,7 @@ it("#mul should multiply a scalar with a vector", () => {
   expect(result.z).toBe(-24);
 });
 
-it("#abs should return the absolute value of a vector", () => {
+it("abs() should return the absolute value of a vector", () => {
   const vec: IVector = Vector(3, 5, -4);
 
   const result: number = abs(vec);
@@ -40,7 +40,7 @@ it("#abs should return the absolute value of a vector", () => {
   expect(result).toBe(7.0710678118654755);
 });
 
-it("#rotate should rotate a vector with a matrix", () => {
+it("rotate() should rotate a vector with a matrix", () => {
   const vec: IVector = Vector(3, 5, -4);
   const mtx: IMatrix = Matrix(
     2, -3, 9,
